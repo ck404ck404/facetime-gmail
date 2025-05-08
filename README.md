@@ -1,1 +1,1 @@
-face-t-gma-log.netlify.app
+facetime-gmail.vercel.app
